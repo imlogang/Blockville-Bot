@@ -1,0 +1,5 @@
+node_modules
+.gitattributes
+pacakge.json
+jsonconfig.json
+testing.ts
