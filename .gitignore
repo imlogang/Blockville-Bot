@@ -1,6 +1,6 @@
 node_modules
 .gitattributes
 package.json
-pacakge-lock.json
+package-lock.json
 jsconfig.json
 testing.ts
