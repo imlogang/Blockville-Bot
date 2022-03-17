@@ -1,5 +1,3 @@
-
-
 import { APIApplicationCommandOption, ApplicationCommandOptionType } from "discord-api-types";
 import { ApplicationCommandPermissionsManager, CacheType, CommandInteraction, CommandInteractionOption, CommandInteractionOptionResolver, DataResolver, Interaction, Options, ThreadChannel } from "discord.js";
 
@@ -67,7 +65,7 @@ export interface Command {
   options?: APIApplicationCommandOption[]
 };
 
-const pteroToken = '6Kd9fkDnou3T0XyycPgMUbZS1JWJQtrbO144AaeZo6SqjSOO';
+const pteroToken = '';
 const config = { headers: { Authorization: `Bearer ${pteroToken}` } }
 
 const postPtero = (endpoint: string, data?: any, onsuccess?: string) => {
@@ -124,7 +122,7 @@ const commandRegistry: { [key: string]: Command } = {
   }
 };
 
-const token = 'OTE2NDkyNzkwMDEwMDg5NTYy.Yaq8bA.YR8tIk9askhfONDGOmeeB-tJSVA';
+const token = '';
 const rest = new REST({ version: '9' }).setToken(token);
 const serverID = '03f3f6b8';
 const robServerID = '42a463d8';
